@@ -1,4 +1,4 @@
-FROM bellsoft/liberica-openjdk-centos:11
+FROM bellsoft/liberica-openjre-centos:11
 
 ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
